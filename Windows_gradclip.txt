@@ -1,0 +1,418 @@
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:01:00.0
+totalMemory: 12.00GiB freeMemory: 9.93GiB
+2018-02-08 07:42:50.635105: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1308] Adding visible gpu devices: 0
+2018-02-08 07:42:51.035792: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:989] Creating TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9618 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+Device mapping:
+/job:localhost/replica:0/task:0/device:GPU:0 -> device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1
+2018-02-08 07:42:51.399060: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\direct_session.cc:297] Device mapping:
+/job:localhost/replica:0/task:0/device:GPU:0 -> device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1
+
+clip_by_global_norm/truediv_1: (RealDiv): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.443574: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/truediv_1: (RealDiv)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/Fill: (Fill): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.444467: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/Fill: (Fill)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/softmax_cross_entropy_with_logits/Reshape_2_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.444669: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/softmax_cross_entropy_with_logits/Reshape_2_grad/Reshape: (Reshape)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/softmax_cross_entropy_with_logits_grad/ExpandDims_1: (ExpandDims): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.444921: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/softmax_cross_entropy_with_logits_grad/ExpandDims_1: (ExpandDims)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/softmax_cross_entropy_with_logits_grad/ExpandDims: (ExpandDims): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.445168: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/softmax_cross_entropy_with_logits_grad/ExpandDims: (ExpandDims)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Sub_1: (Sub): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.445424: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Sub_1: (Sub)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Slice_1/begin: (Pack): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.445643: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Slice_1/begin: (Pack)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Slice_1: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.445900: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Slice_1: (Slice)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/concat_1: (ConcatV2): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.445976: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/concat_1: (ConcatV2)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Sub: (Sub): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446050: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Sub: (Sub)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Slice/begin: (Pack): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446076: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Slice/begin: (Pack)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Slice: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446102: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Slice: (Slice)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/concat: (ConcatV2): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446128: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/concat: (ConcatV2)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Sub_2: (Sub): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446153: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Sub_2: (Sub)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Slice_2/size: (Pack): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446179: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Slice_2/size: (Pack)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Slice_2: (Slice): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446205: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Slice_2: (Slice)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/bias: (VariableV2): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446231: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/bias: (VariableV2)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/bias/read: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446257: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/bias/read: (Identity)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/bias/Initializer/zeros: (Fill): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446282: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/bias/Initializer/zeros: (Fill)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/bias/Assign: (Assign): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446307: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/bias/Assign: (Assign)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/kernel: (VariableV2): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446333: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/kernel: (VariableV2)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/kernel/read: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446358: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/kernel/read: (Identity)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/kernel/Initializer/random_uniform/sub: (Sub): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446383: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/kernel/Initializer/random_uniform/sub: (Sub)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/kernel/Initializer/random_uniform/RandomUniform: (RandomUniform): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446410: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/kernel/Initializer/random_uniform/RandomUniform: (RandomUniform)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/kernel/Initializer/random_uniform/mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446436: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/kernel/Initializer/random_uniform/mul: (Mul)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/kernel/Initializer/random_uniform: (Add): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446462: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/kernel/Initializer/random_uniform: (Add)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/kernel/Assign: (Assign): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446487: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/kernel/Assign: (Assign)/job:localhost/replica:0/task:0/device:GPU:0
+dense/bias: (VariableV2): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446513: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/bias: (VariableV2)/job:localhost/replica:0/task:0/device:GPU:0
+dense/bias/read: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446539: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/bias/read: (Identity)/job:localhost/replica:0/task:0/device:GPU:0
+dense/bias/Initializer/zeros: (Fill): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446564: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/bias/Initializer/zeros: (Fill)/job:localhost/replica:0/task:0/device:GPU:0
+dense/bias/Assign: (Assign): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446588: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/bias/Assign: (Assign)/job:localhost/replica:0/task:0/device:GPU:0
+dense/kernel: (VariableV2): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446613: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/kernel: (VariableV2)/job:localhost/replica:0/task:0/device:GPU:0
+dense/kernel/read: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446638: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/kernel/read: (Identity)/job:localhost/replica:0/task:0/device:GPU:0
+dense/kernel/Initializer/random_uniform/sub: (Sub): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446664: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/kernel/Initializer/random_uniform/sub: (Sub)/job:localhost/replica:0/task:0/device:GPU:0
+dense/kernel/Initializer/random_uniform/RandomUniform: (RandomUniform): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446691: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/kernel/Initializer/random_uniform/RandomUniform: (RandomUniform)/job:localhost/replica:0/task:0/device:GPU:0
+dense/kernel/Initializer/random_uniform/mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446717: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/kernel/Initializer/random_uniform/mul: (Mul)/job:localhost/replica:0/task:0/device:GPU:0
+dense/kernel/Initializer/random_uniform: (Add): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446743: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/kernel/Initializer/random_uniform: (Add)/job:localhost/replica:0/task:0/device:GPU:0
+dense/kernel/Assign: (Assign): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446767: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/kernel/Assign: (Assign)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/bias: (VariableV2): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446792: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/bias: (VariableV2)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/bias/read: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446817: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/bias/read: (Identity)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/bias/Initializer/zeros: (Fill): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446842: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/bias/Initializer/zeros: (Fill)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/bias/Assign: (Assign): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446867: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/bias/Assign: (Assign)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/kernel: (VariableV2): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446892: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/kernel: (VariableV2)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/kernel/read: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446917: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/kernel/read: (Identity)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/kernel/Initializer/random_uniform/sub: (Sub): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446942: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/kernel/Initializer/random_uniform/sub: (Sub)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/kernel/Initializer/random_uniform/RandomUniform: (RandomUniform): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446969: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/kernel/Initializer/random_uniform/RandomUniform: (RandomUniform)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/kernel/Initializer/random_uniform/mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.446995: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/kernel/Initializer/random_uniform/mul: (Mul)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/kernel/Initializer/random_uniform: (Add): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447021: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/kernel/Initializer/random_uniform: (Add)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/kernel/Assign: (Assign): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447046: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/kernel/Assign: (Assign)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/bias: (VariableV2): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447071: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/bias: (VariableV2)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/bias/read: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447096: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/bias/read: (Identity)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/bias/Initializer/zeros: (Fill): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447121: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/bias/Initializer/zeros: (Fill)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/bias/Assign: (Assign): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447144: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/bias/Assign: (Assign)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/kernel: (VariableV2): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447168: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/kernel: (VariableV2)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/kernel/read: (Identity): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447191: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/kernel/read: (Identity)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/kernel/Initializer/random_uniform/sub: (Sub): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447215: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/kernel/Initializer/random_uniform/sub: (Sub)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/kernel/Initializer/random_uniform/RandomUniform: (RandomUniform): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447240: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/kernel/Initializer/random_uniform/RandomUniform: (RandomUniform)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/kernel/Initializer/random_uniform/mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447264: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/kernel/Initializer/random_uniform/mul: (Mul)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/kernel/Initializer/random_uniform: (Add): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447288: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/kernel/Initializer/random_uniform: (Add)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/kernel/Assign: (Assign): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447311: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/kernel/Assign: (Assign)/job:localhost/replica:0/task:0/device:GPU:0
+init: (NoOp): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447335: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] init: (NoOp)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Reshape_1: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447359: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Reshape_1: (Reshape)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/conv2d/Conv2D_grad/ShapeN: (ShapeN): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447383: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/conv2d/Conv2D_grad/ShapeN: (ShapeN)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/Conv2D: (Conv2D): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447407: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/Conv2D: (Conv2D)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/BiasAdd: (BiasAdd): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447431: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/BiasAdd: (BiasAdd)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/Relu: (Relu): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447454: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/Relu: (Relu)/job:localhost/replica:0/task:0/device:GPU:0
+max_pooling2d/MaxPool: (MaxPool): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447478: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] max_pooling2d/MaxPool: (MaxPool)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/conv2d_1/Conv2D_grad/ShapeN: (ShapeN): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447502: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/conv2d_1/Conv2D_grad/ShapeN: (ShapeN)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/Conv2D: (Conv2D): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447526: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/Conv2D: (Conv2D)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/BiasAdd: (BiasAdd): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447550: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/BiasAdd: (BiasAdd)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/Relu: (Relu): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447574: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/Relu: (Relu)/job:localhost/replica:0/task:0/device:GPU:0
+max_pooling2d_1/MaxPool: (MaxPool): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447598: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] max_pooling2d_1/MaxPool: (MaxPool)/job:localhost/replica:0/task:0/device:GPU:0
+Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447622: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] Reshape: (Reshape)/job:localhost/replica:0/task:0/device:GPU:0
+dense/MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447646: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/MatMul: (MatMul)/job:localhost/replica:0/task:0/device:GPU:0
+dense/BiasAdd: (BiasAdd): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447669: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/BiasAdd: (BiasAdd)/job:localhost/replica:0/task:0/device:GPU:0
+dense/Relu: (Relu): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447693: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/Relu: (Relu)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447716: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/MatMul: (MatMul)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/BiasAdd: (BiasAdd): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447740: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/BiasAdd: (BiasAdd)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447764: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Reshape: (Reshape)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/softmax_cross_entropy_with_logits_grad/LogSoftmax: (LogSoftmax): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.447790: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/softmax_cross_entropy_with_logits_grad/LogSoftmax: (LogSoftmax)/job:localhost/replica:0/task:0/device:CPU:0
+gradients/softmax_cross_entropy_with_logits_grad/Neg: (Neg): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447817: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/softmax_cross_entropy_with_logits_grad/Neg: (Neg)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/softmax_cross_entropy_with_logits_grad/mul_1: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447843: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/softmax_cross_entropy_with_logits_grad/mul_1: (Mul)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits: (SoftmaxCrossEntropyWithLogits): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447868: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits: (SoftmaxCrossEntropyWithLogits)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/softmax_cross_entropy_with_logits_grad/mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447894: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/softmax_cross_entropy_with_logits_grad/mul: (Mul)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/softmax_cross_entropy_with_logits/Reshape_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447920: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/softmax_cross_entropy_with_logits/Reshape_grad/Reshape: (Reshape)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/dense_1/MatMul_grad/MatMul_1: (MatMul): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.447945: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/dense_1/MatMul_grad/MatMul_1: (MatMul)/job:localhost/replica:0/task:0/device:CPU:0
+global_norm/L2Loss_6: (L2Loss): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.447968: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] global_norm/L2Loss_6: (L2Loss)/job:localhost/replica:0/task:0/device:CPU:0
+gradients/dense_1/MatMul_grad/MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.447992: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/dense_1/MatMul_grad/MatMul: (MatMul)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/dense/Relu_grad/ReluGrad: (ReluGrad): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448016: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/dense/Relu_grad/ReluGrad: (ReluGrad)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/dense/MatMul_grad/MatMul_1: (MatMul): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448039: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/dense/MatMul_grad/MatMul_1: (MatMul)/job:localhost/replica:0/task:0/device:CPU:0
+global_norm/L2Loss_4: (L2Loss): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448063: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] global_norm/L2Loss_4: (L2Loss)/job:localhost/replica:0/task:0/device:CPU:0
+gradients/dense/MatMul_grad/MatMul: (MatMul): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448087: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/dense/MatMul_grad/MatMul: (MatMul)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_grad/Reshape: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448111: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/Reshape_grad/Reshape: (Reshape)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/max_pooling2d_1/MaxPool_grad/MaxPoolGrad: (MaxPoolGrad): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448136: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/max_pooling2d_1/MaxPool_grad/MaxPoolGrad: (MaxPoolGrad)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/conv2d_1/Relu_grad/ReluGrad: (ReluGrad): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448160: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/conv2d_1/Relu_grad/ReluGrad: (ReluGrad)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/conv2d_1/Conv2D_grad/Conv2DBackpropFilter: (Conv2DBackpropFilter): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448186: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/conv2d_1/Conv2D_grad/Conv2DBackpropFilter: (Conv2DBackpropFilter)/job:localhost/replica:0/task:0/device:CPU:0
+global_norm/L2Loss_2: (L2Loss): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448210: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] global_norm/L2Loss_2: (L2Loss)/job:localhost/replica:0/task:0/device:CPU:0
+gradients/conv2d_1/Conv2D_grad/Conv2DBackpropInput: (Conv2DBackpropInput): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448236: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/conv2d_1/Conv2D_grad/Conv2DBackpropInput: (Conv2DBackpropInput)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/max_pooling2d/MaxPool_grad/MaxPoolGrad: (MaxPoolGrad): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448262: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/max_pooling2d/MaxPool_grad/MaxPoolGrad: (MaxPoolGrad)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/conv2d/Relu_grad/ReluGrad: (ReluGrad): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448286: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/conv2d/Relu_grad/ReluGrad: (ReluGrad)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/conv2d/Conv2D_grad/Conv2DBackpropFilter: (Conv2DBackpropFilter): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448312: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/conv2d/Conv2D_grad/Conv2DBackpropFilter: (Conv2DBackpropFilter)/job:localhost/replica:0/task:0/device:CPU:0
+global_norm/L2Loss: (L2Loss): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448336: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] global_norm/L2Loss: (L2Loss)/job:localhost/replica:0/task:0/device:CPU:0
+gradients/conv2d/Conv2D_grad/Conv2DBackpropInput: (Conv2DBackpropInput): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448362: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/conv2d/Conv2D_grad/Conv2DBackpropInput: (Conv2DBackpropInput)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/conv2d/BiasAdd_grad/BiasAddGrad: (BiasAddGrad): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448388: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/conv2d/BiasAdd_grad/BiasAddGrad: (BiasAddGrad)/job:localhost/replica:0/task:0/device:CPU:0
+global_norm/L2Loss_1: (L2Loss): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448411: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] global_norm/L2Loss_1: (L2Loss)/job:localhost/replica:0/task:0/device:CPU:0
+gradients/conv2d_1/BiasAdd_grad/BiasAddGrad: (BiasAddGrad): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448436: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/conv2d_1/BiasAdd_grad/BiasAddGrad: (BiasAddGrad)/job:localhost/replica:0/task:0/device:CPU:0
+global_norm/L2Loss_3: (L2Loss): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448459: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] global_norm/L2Loss_3: (L2Loss)/job:localhost/replica:0/task:0/device:CPU:0
+gradients/dense/BiasAdd_grad/BiasAddGrad: (BiasAddGrad): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448484: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/dense/BiasAdd_grad/BiasAddGrad: (BiasAddGrad)/job:localhost/replica:0/task:0/device:CPU:0
+global_norm/L2Loss_5: (L2Loss): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448507: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] global_norm/L2Loss_5: (L2Loss)/job:localhost/replica:0/task:0/device:CPU:0
+gradients/dense_1/BiasAdd_grad/BiasAddGrad: (BiasAddGrad): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448533: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/dense_1/BiasAdd_grad/BiasAddGrad: (BiasAddGrad)/job:localhost/replica:0/task:0/device:CPU:0
+global_norm/L2Loss_7: (L2Loss): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448571: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] global_norm/L2Loss_7: (L2Loss)/job:localhost/replica:0/task:0/device:CPU:0
+global_norm/stack: (Pack): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448601: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] global_norm/stack: (Pack)/job:localhost/replica:0/task:0/device:GPU:0
+global_norm/Sum: (Sum): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448627: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] global_norm/Sum: (Sum)/job:localhost/replica:0/task:0/device:GPU:0
+global_norm/mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448653: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] global_norm/mul: (Mul)/job:localhost/replica:0/task:0/device:GPU:0
+global_norm/global_norm: (Sqrt): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448678: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] global_norm/global_norm: (Sqrt)/job:localhost/replica:0/task:0/device:GPU:0
+clip_by_global_norm/truediv: (RealDiv): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448704: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/truediv: (RealDiv)/job:localhost/replica:0/task:0/device:GPU:0
+clip_by_global_norm/Minimum: (Minimum): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448729: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/Minimum: (Minimum)/job:localhost/replica:0/task:0/device:GPU:0
+clip_by_global_norm/mul: (Mul): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448755: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/mul: (Mul)/job:localhost/replica:0/task:0/device:GPU:0
+clip_by_global_norm/mul_8: (Mul): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448780: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/mul_8: (Mul)/job:localhost/replica:0/task:0/device:CPU:0
+clip_by_global_norm/clip_by_global_norm/_7: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448805: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/clip_by_global_norm/_7: (Identity)/job:localhost/replica:0/task:0/device:CPU:0
+GradientDescent/update_dense_1/bias/ApplyGradientDescent: (ApplyGradientDescent): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448833: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] GradientDescent/update_dense_1/bias/ApplyGradientDescent: (ApplyGradientDescent)/job:localhost/replica:0/task:0/device:GPU:0
+clip_by_global_norm/mul_7: (Mul): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448860: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/mul_7: (Mul)/job:localhost/replica:0/task:0/device:CPU:0
+clip_by_global_norm/clip_by_global_norm/_6: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448885: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/clip_by_global_norm/_6: (Identity)/job:localhost/replica:0/task:0/device:CPU:0
+GradientDescent/update_dense_1/kernel/ApplyGradientDescent: (ApplyGradientDescent): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448912: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] GradientDescent/update_dense_1/kernel/ApplyGradientDescent: (ApplyGradientDescent)/job:localhost/replica:0/task:0/device:GPU:0
+clip_by_global_norm/mul_6: (Mul): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448940: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/mul_6: (Mul)/job:localhost/replica:0/task:0/device:CPU:0
+clip_by_global_norm/clip_by_global_norm/_5: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.448965: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/clip_by_global_norm/_5: (Identity)/job:localhost/replica:0/task:0/device:CPU:0
+GradientDescent/update_dense/bias/ApplyGradientDescent: (ApplyGradientDescent): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.448992: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] GradientDescent/update_dense/bias/ApplyGradientDescent: (ApplyGradientDescent)/job:localhost/replica:0/task:0/device:GPU:0
+clip_by_global_norm/mul_5: (Mul): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.449019: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/mul_5: (Mul)/job:localhost/replica:0/task:0/device:CPU:0
+clip_by_global_norm/clip_by_global_norm/_4: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.449044: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/clip_by_global_norm/_4: (Identity)/job:localhost/replica:0/task:0/device:CPU:0
+GradientDescent/update_dense/kernel/ApplyGradientDescent: (ApplyGradientDescent): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449071: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] GradientDescent/update_dense/kernel/ApplyGradientDescent: (ApplyGradientDescent)/job:localhost/replica:0/task:0/device:GPU:0
+clip_by_global_norm/mul_4: (Mul): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.449099: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/mul_4: (Mul)/job:localhost/replica:0/task:0/device:CPU:0
+clip_by_global_norm/clip_by_global_norm/_3: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.449124: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/clip_by_global_norm/_3: (Identity)/job:localhost/replica:0/task:0/device:CPU:0
+GradientDescent/update_conv2d_1/bias/ApplyGradientDescent: (ApplyGradientDescent): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449151: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] GradientDescent/update_conv2d_1/bias/ApplyGradientDescent: (ApplyGradientDescent)/job:localhost/replica:0/task:0/device:GPU:0
+clip_by_global_norm/mul_3: (Mul): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.449178: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/mul_3: (Mul)/job:localhost/replica:0/task:0/device:CPU:0
+clip_by_global_norm/clip_by_global_norm/_2: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.449203: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/clip_by_global_norm/_2: (Identity)/job:localhost/replica:0/task:0/device:CPU:0
+GradientDescent/update_conv2d_1/kernel/ApplyGradientDescent: (ApplyGradientDescent): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449230: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] GradientDescent/update_conv2d_1/kernel/ApplyGradientDescent: (ApplyGradientDescent)/job:localhost/replica:0/task:0/device:GPU:0
+clip_by_global_norm/mul_2: (Mul): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.449256: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/mul_2: (Mul)/job:localhost/replica:0/task:0/device:CPU:0
+clip_by_global_norm/clip_by_global_norm/_1: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.449281: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/clip_by_global_norm/_1: (Identity)/job:localhost/replica:0/task:0/device:CPU:0
+GradientDescent/update_conv2d/bias/ApplyGradientDescent: (ApplyGradientDescent): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449309: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] GradientDescent/update_conv2d/bias/ApplyGradientDescent: (ApplyGradientDescent)/job:localhost/replica:0/task:0/device:GPU:0
+clip_by_global_norm/mul_1: (Mul): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.449336: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/mul_1: (Mul)/job:localhost/replica:0/task:0/device:CPU:0
+clip_by_global_norm/clip_by_global_norm/_0: (Identity): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.449361: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/clip_by_global_norm/_0: (Identity)/job:localhost/replica:0/task:0/device:CPU:0
+GradientDescent/update_conv2d/kernel/ApplyGradientDescent: (ApplyGradientDescent): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449388: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] GradientDescent/update_conv2d/kernel/ApplyGradientDescent: (ApplyGradientDescent)/job:localhost/replica:0/task:0/device:GPU:0
+GradientDescent: (NoOp): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449416: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] GradientDescent: (NoOp)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/zeros_like: (ZerosLike): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449441: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/zeros_like: (ZerosLike)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Reshape_2: (Reshape): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449467: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Reshape_2: (Reshape)/job:localhost/replica:0/task:0/device:GPU:0
+GradientDescent/learning_rate: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449493: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] GradientDescent/learning_rate: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+clip_by_global_norm/mul/x: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449519: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/mul/x: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+clip_by_global_norm/truediv_1/y: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449551: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/truediv_1/y: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+clip_by_global_norm/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449578: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/Const: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+clip_by_global_norm/truediv/x: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449605: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] clip_by_global_norm/truediv/x: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+global_norm/Const_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449631: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] global_norm/Const_1: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+global_norm/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449657: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] global_norm/Const: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/conv2d/Conv2D_grad/Const_1: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.449683: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/conv2d/Conv2D_grad/Const_1: (Const)/job:localhost/replica:0/task:0/device:CPU:0
+gradients/conv2d/Conv2D_grad/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449710: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/conv2d/Conv2D_grad/Const: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/conv2d_1/Conv2D_grad/Const_1: (Const): /job:localhost/replica:0/task:0/device:CPU:0
+2018-02-08 07:42:51.449736: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/conv2d_1/Conv2D_grad/Const_1: (Const)/job:localhost/replica:0/task:0/device:CPU:0
+gradients/conv2d_1/Conv2D_grad/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449762: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/conv2d_1/Conv2D_grad/Const: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/Reshape_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449789: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/Reshape_grad/Shape: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/softmax_cross_entropy_with_logits/Reshape_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449817: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/softmax_cross_entropy_with_logits/Reshape_grad/Shape: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/softmax_cross_entropy_with_logits_grad/ExpandDims_1/dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449847: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/softmax_cross_entropy_with_logits_grad/ExpandDims_1/dim: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/softmax_cross_entropy_with_logits_grad/ExpandDims/dim: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449876: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/softmax_cross_entropy_with_logits_grad/ExpandDims/dim: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/softmax_cross_entropy_with_logits/Reshape_2_grad/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449904: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/softmax_cross_entropy_with_logits/Reshape_2_grad/Shape: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/grad_ys_0: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449932: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/grad_ys_0: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+gradients/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449958: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] gradients/Shape: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Slice_2/begin: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.449985: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Slice_2/begin: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Sub_2/y: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450013: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Sub_2/y: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/concat_1/axis: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450041: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/concat_1/axis: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/concat_1/values_0: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450069: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/concat_1/values_0: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Slice_1/size: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450096: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Slice_1/size: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Sub_1/y: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450123: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Sub_1/y: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Shape_2: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450149: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Shape_2: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Rank_2: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450176: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Rank_2: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/concat/axis: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450202: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/concat/axis: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/concat/values_0: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450230: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/concat/values_0: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Slice/size: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450257: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Slice/size: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Sub/y: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450283: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Sub/y: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Shape_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450310: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Shape_1: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Rank_1: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450336: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Rank_1: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450362: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Shape: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+softmax_cross_entropy_with_logits/Rank: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450388: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] softmax_cross_entropy_with_logits/Rank: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/bias/Initializer/zeros/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450414: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/bias/Initializer/zeros/Const: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/bias/Initializer/zeros/shape_as_tensor: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450440: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/bias/Initializer/zeros/shape_as_tensor: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/kernel/Initializer/random_uniform/max: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450467: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/kernel/Initializer/random_uniform/max: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/kernel/Initializer/random_uniform/min: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450493: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/kernel/Initializer/random_uniform/min: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+dense_1/kernel/Initializer/random_uniform/shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450520: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense_1/kernel/Initializer/random_uniform/shape: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+dense/bias/Initializer/zeros/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450545: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/bias/Initializer/zeros/Const: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+dense/bias/Initializer/zeros/shape_as_tensor: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450571: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/bias/Initializer/zeros/shape_as_tensor: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+dense/kernel/Initializer/random_uniform/max: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450597: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/kernel/Initializer/random_uniform/max: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+dense/kernel/Initializer/random_uniform/min: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450623: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/kernel/Initializer/random_uniform/min: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+dense/kernel/Initializer/random_uniform/shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450649: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] dense/kernel/Initializer/random_uniform/shape: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+Reshape/shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450675: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] Reshape/shape: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/dilation_rate: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450702: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/dilation_rate: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/bias/Initializer/zeros/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450727: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/bias/Initializer/zeros/Const: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/bias/Initializer/zeros/shape_as_tensor: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450754: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/bias/Initializer/zeros/shape_as_tensor: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/kernel/Initializer/random_uniform/max: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450781: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/kernel/Initializer/random_uniform/max: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/kernel/Initializer/random_uniform/min: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450808: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/kernel/Initializer/random_uniform/min: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d_1/kernel/Initializer/random_uniform/shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450836: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d_1/kernel/Initializer/random_uniform/shape: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/dilation_rate: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450862: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/dilation_rate: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/bias/Initializer/zeros/Const: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450888: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/bias/Initializer/zeros/Const: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/bias/Initializer/zeros/shape_as_tensor: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450914: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/bias/Initializer/zeros/shape_as_tensor: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/kernel/Initializer/random_uniform/max: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450940: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/kernel/Initializer/random_uniform/max: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/kernel/Initializer/random_uniform/min: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450966: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/kernel/Initializer/random_uniform/min: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+conv2d/kernel/Initializer/random_uniform/shape: (Const): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.450992: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] conv2d/kernel/Initializer/random_uniform/shape: (Const)/job:localhost/replica:0/task:0/device:GPU:0
+Placeholder_1: (Placeholder): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.451018: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] Placeholder_1: (Placeholder)/job:localhost/replica:0/task:0/device:GPU:0
+Placeholder: (Placeholder): /job:localhost/replica:0/task:0/device:GPU:0
+2018-02-08 07:42:51.451044: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\placer.cc:875] Placeholder: (Placeholder)/job:localhost/replica:0/task:0/device:GPU:0
